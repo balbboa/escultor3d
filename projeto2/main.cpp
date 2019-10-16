@@ -19,7 +19,7 @@ int main()
 {
     //1
     ifstream inputFile;
-    inputFile.open("/home/balboa/projeto2/teste.txt");
+    inputFile.open("C:/Users/MatrizD42018/Desktop/escultor3d/projeto2/teste.txt");
 
     if(!inputFile)
     {
@@ -114,8 +114,8 @@ int main()
     }
 
     //7
-    t.writeOFF("/home/balboa/projeto2/off.off");
-    t.writeVECT("/home/balboa/projeto2/vect.vect");
+    t.writeOFF("C:/Users/MatrizD42018/Desktop/escultor3d/projeto2/off.off");
+    t.writeVECT("C:/Users/MatrizD42018/Desktop/escultor3d/projeto2/vect.vect");
     inputFile.close();
     return 0;
 }
